@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Composite — A-Frame">
+<script src="js/aframe.0.3.0.min.js"></script>
+</head>
+<body>
+<a-scene>
+  <a-assets>
+    <img id="bg" src="img/bg.jpg">
+  </a-assets>
+  <a-sky id="image-360" depth="10" radius="0" src="#bg"></a-sky>
+  <a-camera geometry="primitive: plane; height: 0.2; width: 0.2"  position="0 1.8 0" width="20" radius="2">
+    <a-cursor width="2" color="#2E3A87"></a-cursor>
+  </a-camera>
+</a-scene>
+</body>
+</html>
